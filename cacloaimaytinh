@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>So sánh các dòng máy tính xách tay phổ biến</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        header, footer {
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .image-row {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .image-row img {
+            width: 250px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>So sánh các dòng máy tính xách tay</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Giới thiệu</h2>
+            <p>
+                Trang web này cung cấp thông tin so sánh giữa các dòng máy tính xách tay
+                phổ biến hiện nay nhằm giúp người dùng lựa chọn phù hợp với nhu cầu học tập
+                và làm việc.
+            </p>
+        </section>
+
+        <section>
+            <h2>Các dòng laptop phổ biến</h2>
+            <ul>
+                <li>MacBook Air</li>
+                <li>Dell XPS</li>
+                <li>Asus ZenBook</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hình ảnh minh họa</h2>
+
+            <div class="image-row">
+                <img src="https://maytinhquanganh.com/wp-content/uploads/2023/07/IMG_1357.jpg"
+                     alt="Máy tính xách tay MacBook Air màu bạc">
+                <p>
+                    MacBook Air là dòng laptop mỏng nhẹ của Apple, phù hợp cho sinh viên
+                    và người làm việc văn phòng.
+                </p>
+            </div>
+
+            <div class="image-row">
+                <img src="https://hanoilab.com/wp-content/uploads/2023/03/Dell-Xps-13-9315-i71250U-4.jpg"
+                     alt="Laptop Dell XPS 13 đặt trên bàn làm việc">
+                <p>
+                    Dell XPS 13 nổi bật với thiết kế cao cấp, màn hình sắc nét
+                    và hiệu năng ổn định.
+                </p>
+            </div>
+
+            <div class="image-row">
+                <img src="https://cdn.tgdd.vn/News/1557809/V-1280x720.jpg"
+                     alt="Asus ZenBook mỏng nhẹ màu xanh đậm">
+                <p>
+                    Asus ZenBook là lựa chọn cân bằng giữa giá thành,
+                    hiệu năng và tính di động.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Tham khảo thêm</h2>
+            <p>
+                Bạn có thể xem thêm đánh giá chi tiết tại trang web:
+                <a href="https://www.techradar.com" target="_blank">
+                    TechRadar
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Bài tập HTML5</p>
+    </footer>
+</body>
+</html>
